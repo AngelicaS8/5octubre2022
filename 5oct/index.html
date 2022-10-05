@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--PROGRAMACION ANGELICA SANCHEZ-->
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ANGELICA SANCHEZ</title>
+        <link rel="stylesheet" href="master.css">
+    </head>
+    <body>
+        <!--BARRA DE NAVEGACION-->
+        <nav>
+            <!--CONTENEDOR LOGO-->
+            <div class="logo">
+<a href="#">Angelica</a>
+</div>
+<!--FIN CONTENEDOR LOGO-->
+<!--INICIO MENU WEB-->
+<div>
+    <ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">Sobre Mi</a></li>
+<li><a href="#">Portafolio</a></li>
+<li><a href="#">Contacto</a></li>
+    </ul>
+</div>
+        </nav>
+<!--FIN MENU WEB-->
+<section class="home"></section>
+<div class="text">
+<p><h2>Sobre Mi</h2></p>
+<p>Hola, mi nombre es angelica sanchez, tengo 25 años, naci en la hermosa ciudad de Bucaramga, estudio diseño grafico en la UDI. Cumplo años el 28 de julio. Trabajo en diseño desde hace 5 años, mi especialidad es el branding, marketing digital, social media y diseño de paginas web Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum, veritatis repellat exercitationem qui magni facere corporis animi odit? Quam ea laborum ex incidunt ratione ad accusamus alias sint asperiores placeat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat consequuntur, magni aspernatur a id veritatis fugit facilis autem quae rerum. Iusto, facilis. Repellendus vel facilis nostrum minima reprehenderit est ea.</p>
+</div>
+<!--JAVA-->
+<script>
+    let nav = document.querySelector("nav");
+    window.onscroll = function() {
+      if(document.documentElement.scrollTop > 20){
+        nav.classList.add("sticky");
+      }else {
+        nav.classList.remove("sticky");
+      }
+    }
+</script>
+    </body>
+</html>
